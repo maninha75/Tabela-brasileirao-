@@ -1,0 +1,56 @@
+*{margin: 0; padding: 0;}
+    /*a {
+      text-decoration: none;
+      color: rgb(97, 92, 92);
+    
+    }
+    ul li{list-style-type: none;
+    display: inline;
+    }
+*/
+    .cabecalho{
+        background: #F3F3F3;
+        padding: 5px;
+    }
+
+    .cabecalho ul li{
+        color: cornsilk;
+        display: inline;
+        list-style-type: none;
+        margin-left: 20px;
+    }    
+    .cabecalho a{
+        text-decoration: none;
+      color: rgb(97, 92, 92);
+    }
+
+.posicaofixa {
+    background: #3B9C01; 
+    color: cornsilk;
+    
+}
+    
+.posicaofixa ul li {
+    margin-left: 20px;
+   display: inline;
+}
+.posicaofixa a{
+    text-decoration: none;
+    color: cornsilk;
+    
+} 
+.cabecalho1{
+       
+        text-align: center;
+           }
+    .container{
+        margin: 0 auto;
+        width: 940px;
+    }
+    .opcoes{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    
+
