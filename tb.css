@@ -1,56 +1,112 @@
-*{margin: 0; padding: 0;}
-    /*a {
-      text-decoration: none;
-      color: rgb(97, 92, 92);
-    
-    }
-    ul li{list-style-type: none;
-    display: inline;
-    }
-*/
-    .cabecalho{
-        background: #F3F3F3;
-        padding: 5px;
-    }
+/*CSS tabela brasileirao*/
 
-    .cabecalho ul li{
-        color: cornsilk;
-        display: inline;
-        list-style-type: none;
-        margin-left: 20px;
-    }    
-    .cabecalho a{
-        text-decoration: none;
-      color: rgb(97, 92, 92);
-    }
+<style type="text/css">
+*{margin:0; padding:0;}
 
-.posicaofixa {
-    background: #3B9C01; 
-    color: cornsilk;
-    
+
+body{
+    margin:0;
 }
-    
-.posicaofixa ul li {
-    margin-left: 20px;
-   display: inline;
+
+.verde {
+    margin: 0;
+    background-color: #3b9c01;
+list-style: none;
+
+
 }
-.posicaofixa a{
+.cinza {
+    margin: 0;
+    background-color: #f3f3f3;
+list-style: none;
+
+}
+
+
+.verde form{
+    padding: 10px 10px;
+    font-display: inline-block;
+    color: #999;
     text-decoration: none;
-    color: cornsilk;
-    
-} 
-.cabecalho1{
-       
-        text-align: center;
-           }
-    .container{
-        margin: 0 auto;
-        width: 940px;
-    }
-    .opcoes{
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
-    
+    display: inline;
+    align-items:center;
 
+}
+.cinza form{
+    padding: 10px 10px;
+    font-display: inline-block;
+    color: #999;
+    text-decoration: none;
+    display: inline;
+    align-items:center;
+
+}
+
+.verde div{
+    padding: 10px 10px;
+    font-display: inline-block;
+    color: #999;
+    text-decoration: none;
+    display: inline;
+    align-items:center;
+
+}
+.verde ul{
+    display: inline;
+    list-style-type:none; float: left; margin: 0px; padding: 0px;
+    
+}
+.verde li{
+    display: inline;
+    font-family: Verdana; float: left; padding: 5px;
+}
+.verde a{
+    display: inline;
+    text-decoration: none; 
+    color: #999;
+padding: 5px;
+font-size: 18px; 
+}
+
+.cinza ul{
+    
+    display: inline;
+  
+}
+.cinza li{
+    font-family: Verdana; float: left; padding: 5px;
+    display: inline;
+}
+.cinza a{
+    text-align: center;
+    display: inline;
+    color: #999;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+.logo{margin-bottom:10px;}
+
+
+  th, td  {
+    text-align: left;
+    padding: 8px;
+    position: relative;
+    border-top: 10 px solid red;
+    border-collapse: collapse;
+  }
+  table{
+    float: left;
+  } 
+    
+  }
+  .aside {
+    background-color:#1d07508e;
+    border: 5px solid grey;
+    
+    margin: 0px;
+    padding: 0;
+    float: right;
+    position: relative;
+  }
